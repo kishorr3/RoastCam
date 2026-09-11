@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-pixel: 'Silkscreen', monospace;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-charcoal: #242424;
+  --color-softpink: #E6A4C8;
+  --color-lightpink: #F3C8DE;
+  --color-lavender: #9A8CE6;
+  --color-lightlavender: #D8D0FF;
+  --color-cyan-accent: #2BD7D0;
+  --color-accent-yellow: #FFF0A5;
+  --color-cream: #FBF4E6;
+  --color-ink: #171717;
+}
+
+/* Custom Papercraft & Graphic Fest Utilities */
+.font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-pixel {
+  font-family: 'Silkscreen', monospace;
+}
+
+.font-sans-body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Crisp dark outlines matching Graphic Fest reference */
+.border-dark-solid {
+  border: 2.5px solid #171717;
+}
+
+.shadow-retro {
+  box-shadow: 4px 4px 0px #171717;
+}
+
+.shadow-retro-sm {
+  box-shadow: 2px 2px 0px #171717;
+}
+
+.shadow-retro-lg {
+  box-shadow: 6px 6px 0px #171717;
+}
+
+/* Papercraft Layered Diorama Styles */
+.paper-layer-1 {
+  filter: drop-shadow(0 2px 4px rgba(23, 23, 23, 0.08));
+}
+
+.paper-layer-2 {
+  filter: drop-shadow(0 4px 8px rgba(23, 23, 23, 0.12));
+}
+
+.paper-layer-3 {
+  filter: drop-shadow(0 8px 16px rgba(23, 23, 23, 0.16));
+}
+
+/* White sticker border backing */
+.papercraft-cutout {
+  filter: drop-shadow(0 0 1px #ffffff) drop-shadow(0 0 2px #ffffff) drop-shadow(0 0 3px #ffffff) drop-shadow(3px 5px 6px rgba(0, 0, 0, 0.22));
+}
+
+/* Subtle paper texture overlay */
+.paper-texture {
+  background-image: radial-gradient(rgba(23, 23, 23, 0.04) 1px, transparent 0);
+  background-size: 16px 16px;
+}
+
+/* Mirror transform for webcam */
+.mirror-video {
+  transform: scaleX(-1);
+}
+
+/* Pixel rendering for octopus */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}

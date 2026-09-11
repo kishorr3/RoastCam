@@ -1,0 +1,10 @@
+{
+  "name": "RoastCam",
+  "description": "A client-side multimodal computer-vision experience that turns obvious observations into deliberately unnecessary comedy, featuring papercraft diorama aesthetics.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
