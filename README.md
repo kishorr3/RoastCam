@@ -164,7 +164,7 @@ RoastCam/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/roastcam.git
+git clone https://github.com/kishorr3/roastcam.git
 cd roastcam
 ```
 
@@ -303,17 +303,12 @@ Potential extensions include:
 * More interactive octopus animations
 * Additional AI-powered “useless” features
 
----
+
 
 ## 📜 License
 
-Choose a license appropriate for your repository. For example, MIT:
 
-```text
 MIT License
-```
-
----
 
 ## 👨‍💻 Built For
 
